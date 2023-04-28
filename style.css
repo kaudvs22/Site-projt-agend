@@ -6,8 +6,8 @@
 .cabeçalho{
     background-color:#030515;
     color: hsl(255, 78%, 25%);
-    display: flex;
-    justify-content:space-around ;
+    justify-content:space-around;
+    padding: 24px 0;
 }
  
 .cabeçalho-imagem{
@@ -17,4 +17,5 @@
 .cabeçalho-item{
     display:inline-block;
     margin: 0 16px;
+    font-size: 30px;
 }
