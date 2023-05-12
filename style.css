@@ -5,17 +5,38 @@
 
 .cabeçalho{
     background-color:#030515;
-    color: hsl(255, 78%, 25%);
-    justify-content:space-around;
-    padding: 24px 0;
+    color: hsl(255, 24%, 93%);
+    display: flex;
+    justify-content:space-around ;
+    align-items: center;
+    padding: 10px 0;
 }
  
-.cabeçalho-imagem{
-    width: 10%;
-}
-
-.cabeçalho-item{
+.Item{
     display:inline-block;
-    margin: 0 16px;
+    font-size:50px;
+}
+.Imagem{
+    width: 35%;
+    
+}
+.Texto{
+    background-image:linear-gradient(#030515,#0a1036bf);
+    color: aliceblue;
+    padding: 5cm 0;
+    display: flex;
+    justify-content:center;
+    align-items: center;
+}
+.Texto-div{
+    width: 35%;
+}
+.Texto-um{
+    padding: 20px;
     font-size: 30px;
 }
+.Texto-dois{
+    padding: 20px;
+    font-size: 30px;
+}
+ 
