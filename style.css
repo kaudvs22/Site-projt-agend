@@ -17,7 +17,7 @@
     font-size:50px;
 }
 .Imagem{
-    width: 35%;
+    width: 30%;
     
 }
 .Texto{
@@ -39,4 +39,18 @@
     padding: 20px;
     font-size: 30px;
 }
- 
+.parte2{
+    background-image: linear-gradient(#0a1036bf, #85889F);
+    padding: 0.5cm 8cm 8cm;
+}
+.Acessos-div{
+    text-align: center;
+}
+.acesso1{
+    text-align: center;
+    padding: 50px ;
+}
+.acesso-todos{
+    display: grid;
+    grid-template-columns: 40% 40% 30% 20% 20%;
+}
