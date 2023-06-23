@@ -9,19 +9,25 @@
     display: flex;
     justify-content:space-around ;
     align-items: center;
-    padding: 10px 0;
+    padding: 0 40px;
+
 }
  
 .Item{
     display:inline-block;
     font-size:50px;
 }
-.Imagem{
+.lista-item{
+    display: inline-block;
+    margin: 0  10px;
+}
+
+.Imagem-planeja{
     width: 30%;
-    
+    padding: 0 40px;
 }
 .Texto{
-    background-image:linear-gradient(#030515,#0a1036bf);
+    background-image:linear-gradient(#030515,#26799C);
     color: aliceblue;
     padding: 5cm 0;
     display: flex;
@@ -40,17 +46,31 @@
     font-size: 30px;
 }
 .parte2{
-    background-image: linear-gradient(#0a1036bf, #85889F);
+    background-image: linear-gradient(#26799C,#030515 );
     padding: 0.5cm 8cm 8cm;
+    
 }
 .Acessos-div{
     text-align: center;
 }
-.acesso1{
-    text-align: center;
-    padding: 50px ;
+.dig-imagem{
+  width: 50%;
+  padding: 0 215px;
 }
-.acesso-todos{
-    display: grid;
-    grid-template-columns: 40% 40% 30% 20% 20%;
+.texto-dig{
+    text-align: center;
+    padding: 20px;
+    font-size: 30px;
+    color:hsl(255, 24%, 93%) ;
+}
+.texto-dgi{
+    text-align: center;
+    font-size: 30px;
+    color:hsl(255, 24%, 93%) ;
+} 
+.rodape{
+    background-color: #030515;
+    color:hsl(255, 24%, 93%) ;
+    font-size: 30px;
+    padding: 0 600px;
 }
