@@ -1,0 +1,47 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.Título{
+    background-color:darkblue;
+    color:aliceblue;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 20px 0;
+}
+.Texto{
+    color: #000;;
+    display: inline-block;
+    font-size: 50px;
+}
+.Imagem{
+    width: 20%;
+}
+.opção-1{
+    display: inline-block;
+    font-size: 20px;
+}
+.opção-2{
+    display: inline-block;
+    font-size: 20px;
+    margin: 0 30px;
+}
+.opção-3{
+    display: inline-block;
+    font-size: 20px;
+    margin: 0 30px;
+}
+.opção-4{
+    display: inline-block;
+    font-size: 20px;
+    margin: 0 30px;
+}
+.informações{
+    background-image:linear-gradient(darkblue,darkcyan);
+    color:aliceblue;
+    display: flex;
+    justify-content: space-around;
+    align-items: normal;
+    padding: 20px 0;
+}
