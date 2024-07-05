@@ -1,0 +1,44 @@
+:root{
+    --fundo-principal:#000000;
+    --fundo-segundario:#2c2b64;
+    --fundo-terciario:#2c642b;
+}
+
+body{ background-color: #000015;}
+
+header#menu{
+    color:#416484;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 0px 10px;
+}
+
+header#menu p{
+    color: #fff;
+    font-size: 20px;
+    margin: 0px 28px; }
+
+header#menu a{
+    color: #fff;
+    padding: 0px 2px;
+}
+
+header#menu img{
+    width: 10%;
+}
+/*campo*/
+div#camp{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+section#fot img{
+
+    width: 20%;
+}
+section#fot p{
+    font-size: large;
+    color: #fff;
+}
+
